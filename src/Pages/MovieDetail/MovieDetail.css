@@ -1,0 +1,43 @@
+.movie_details{
+    display: flex;
+    gap: 50px;
+    
+}
+
+.movie_title{
+    font-size: 50px;
+    color: palevioletred;
+}
+
+.generes{
+    /* border: 1px solid blue; */
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.gener{
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.movie_img{
+    max-width: 400px;
+    height: 500px;
+    /* border: 1px solid red; */
+}
+
+.movie_img img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.movie_content{
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

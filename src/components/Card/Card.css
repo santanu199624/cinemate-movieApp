@@ -1,0 +1,14 @@
+
+
+.card{
+    border: 1px solid green;
+    width: 23%;
+}
+
+.card_image{
+    width: 100%;
+}
+
+.card_image img{
+    width: 100%;
+}

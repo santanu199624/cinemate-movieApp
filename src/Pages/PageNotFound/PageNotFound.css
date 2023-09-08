@@ -1,0 +1,28 @@
+.pageNotFound{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 50px;
+    position: relative;
+}
+
+.pageNotFound p{
+    font-size: 100px;
+}
+
+.pageNotFound h1{
+    font-size: 80px;
+}
+
+.back_to_home{
+    position: absolute;
+    top: 111px;
+    right: 35px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
